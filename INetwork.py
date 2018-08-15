@@ -55,7 +55,7 @@ parser.add_argument("--content_mask", type=str, default=None,
 parser.add_argument("--color_mask", type=str, default=None,
                     help='Mask for color preservation')
 
-parser.add_argument("--image_size", dest="img_size", default=400, type=int,
+parser.add_argument("--image_size", dest="img_size", default=800, type=int,
                     help='Minimum image size')
 
 parser.add_argument("--content_weight", dest="content_weight", default=0.025, type=float,
